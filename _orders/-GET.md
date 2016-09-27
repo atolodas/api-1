@@ -109,7 +109,7 @@ Grąžinamas vartotojo visų užsakymų sąrašas.
 | **delivery_zip** | *string* | Pristatymo pašto kodas |
 | **delivery_phone** | *string* | Gavėjo kontaktinis telefonas |
 | **delivery_additional_info** | *string* | Papildoma pristatymo informacija, pastabos |
-| **delivery_type** | *string* | Pristatymo tipas. Galimi pristatymo tipai: [/deliverytypes](/#deliverytypes-GET) |
+| **delivery_type** | *string* | Pristatymo tipas. Galimi pristatymo tipai: [/deliverytypes]({{ site.baseurl }}/#deliverytypes-GET) |
 | **delivery_date** | *string* | Numatoma pristatymo data |
 | **delivery_time** | *string* | Numatomas pristatymo laikas |
 | **modified_at** | *string* | Užsakymo informacijos atnaujinimo data |
