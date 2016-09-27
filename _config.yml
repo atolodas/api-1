@@ -1,18 +1,42 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: Pretendentas
+description: Pretendentas API dokumentacija.
+url: https://https://pretendentas.github.io/api
 google_analytics_key:
 
 collections:
-  documentation:
-    title: Documentation
+  info:
+    title: Dokumentacija
     position: 1
-  api:
-    title: APIs
+  user:
+    title: Vartotojo informacija
     position: 2
+  orders:
+    title: Užsakymai
+    position: 3
+  invoices:
+    title: Sąskaitos
+    position: 4
+  categories:
+    title: Prekių kategorijos
+    position: 5
+  products:
+    title: Prekių informacija
+    position: 6
+  producttypes:
+    title: Prekių tipai
+    position: 7
+  manufacturers:
+    title: Gamintojai
+    position: 8
+  paymenttypes:
+    title: Apmokėjimo būdai
+    position: 9
+  deliverytypes:
+    title: Pristatymo būdai
+    position: 10
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
