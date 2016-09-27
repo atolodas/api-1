@@ -3,7 +3,8 @@
 
 title: Pretendentas
 description: Pretendentas API dokumentacija.
-url: https://https://pretendentas.github.io/api
+baseurl: '/api'
+url: https://pretendentas.github.io
 google_analytics_key:
 
 collections:
@@ -44,14 +45,13 @@ gems:
 exclude:
   - readme.md
   - LICENCE
-  
+
 defaults:
   -
     scope:
       path: ""
     values:
       layout: default
-
 # -----
 # Build
 

@@ -1,3 +1,6 @@
+---
+layout:
+---
 (function () {
 	function getQueryVariable(variable) {
 		var query = window.location.search.substring(1),
