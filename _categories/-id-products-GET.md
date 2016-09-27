@@ -71,7 +71,7 @@ Grąžinamas nurodytos kategorijos bazinis prekių sąrašas. Jo informacija kin
 | **title** | *string* | Pavadinimas |
 | **artnum** | *string* | Prekės kodas |
 | **modified_at** | *string* | Prekės informacijos paskutinio koregavimo data ir laikas |
-| **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers](/#manufacturers-GET) |
+| **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers]({{ site.baseurl }}/#manufacturers-GET) |
 | **stock** | *Stock* | Kiekis |
 | | | **type** (*string*) - Kiekio tipas. Galimos reikšmės: <br>* morethan - turima daugiau nei nurodyta <br>* total - tikslus skaičius <br>* orderable - specialiai užsakoma <br>* inquire - teirautis dėl likučio <br>**amount** (*double*) - Prekės kiekis <br>**delivery** (*DeliveryTime*) - Pristatymo laikas <br>* time (*string*) - Jei tipas *orderable*, tai *time* nurodo per kiek laiko bus pristatyta prekė, ją užsakius. Kitu atveju, konkreti data (*unit - date*) <br>* unit (*string*) - Pristatymo laiko matas *time* laukui. Galimos reikšmės: <br>** day – dienomis <br>** week – savaitėmis <br>** month – mėnesiais <br>** date - konkreti data(jei *time* ne orderable). |
 | **price** | *number* | Kaina |

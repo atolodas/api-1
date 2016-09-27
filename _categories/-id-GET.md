@@ -4,4 +4,4 @@ position: 2
 type: get
 description: Kategorijos informacija
 ---
-Grąžinama pasirinktos kategorijos informacija. Struktūra tokia pati kaip [/categories](/#categories-GET).
+Grąžinama pasirinktos kategorijos informacija. Struktūra tokia pati kaip [/categories]({{ site.baseurl }}/#categories-GET).

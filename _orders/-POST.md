@@ -5,19 +5,19 @@ type: post
 description: Sukurti užsakymą
 ---
 Prekių užsakymas vykdomas siunčiant **POST** užklausą, kurioje order reikšmė yra užsakymo informacija. Alternatyvus būdas yra siųsti **POST** užklausą su užsakymo informacija **JSON** formatu.
-Jei prekės pristatomos per kurjerių tarnybą (*delivery_type - oxdpd*) privaloma užsakyme pateikti gavėjo adresą. Jis gali būti nurodomas iš vartotojo adresų (*žiūrėti: [/user](/#user-GET)*) *delivery_address_id* laukelyje arba įvestas tam skirtuose laukeliuose.
+Jei prekės pristatomos per kurjerių tarnybą (*delivery_type - oxdpd*) privaloma užsakyme pateikti gavėjo adresą. Jis gali būti nurodomas iš vartotojo adresų (*žiūrėti: [/user]({{ site.baseurl }}/#user-GET)*) *delivery_address_id* laukelyje arba įvestas tam skirtuose laukeliuose.
 
 ~~~
 https://api.pretendentas.lt/v1/examples/order
 ~~~
 
-| **delivery_type** | *string* | Pristatymo būdas. Galimi būdai: [/deliverytypes](/#deliverytypes-GET) |
-| **bill_payment_type** | *string* | Apmokėjimo būdas. Galimi apmokėjimai: [/paymenttypes](/#paymenttypes-GET) |
+| **delivery_type** | *string* | Pristatymo būdas. Galimi būdai: [/deliverytypes]({{ site.baseurl }}/#deliverytypes-GET) |
+| **bill_payment_type** | *string* | Apmokėjimo būdas. Galimi apmokėjimai: [/paymenttypes]({{ site.baseurl }}/#paymenttypes-GET) |
 | **products** | *array[OrderProduct]* | Užsakomos prekės |
 | | | **id** (*string*) - Prekės id <br>**quantity** (*integer*) - Užsakomas kiekis |
 | **bill_additional_info** | *string, optional* | Papildoma mokėjimo informacija, pastabos |
 | **delivery_additional_info** | *string, optional* | Papildoma pristatymo informacija, pastabos |
-| **delivery_address_id** | *integer, optional* | Pristatymo adreso id. Galimi pristatymo adresai: [/user](/#user-GET). Nurodomas adreso id arba užpildomi žemiau esantys pristatymo laukai |
+| **delivery_address_id** | *integer, optional* | Pristatymo adreso id. Galimi pristatymo adresai: [/user]({{ site.baseurl }}/#user-GET). Nurodomas adreso id arba užpildomi žemiau esantys pristatymo laukai |
 | **delivery_company** | *string, optional* | Įmonės pavadinimas, jei gavėjas yra juridinis asmuo |
 | **delivery_firstname** | *string, optional* | Vardas, jei gavėjas yra fizinis asmuo |
 | **delivery_lastname** | *string, optional* | Pavardė, jei gavėjas yra fizinis asmuo |

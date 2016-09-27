@@ -8,4 +8,4 @@ Grąžina nurodytos prekės papildomą informaciją.
 
 ###### **Atsakymo struktūra(ProductExtended)**
 
-Žiūrėti: [/categories/:id/products/extended](/#categories-id-products-extended-GET)
+Žiūrėti: [/categories/:id/products/extended]({{ site.baseurl }}/#categories-id-products-extended-GET)

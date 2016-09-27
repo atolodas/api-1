@@ -63,7 +63,7 @@ right_code: |
   </response>
   ~~~
   {: title="XML" }
-  
+
   ~~~ json
   {
     "success": true,
@@ -122,8 +122,8 @@ Grąžinamas nurodytos kategorijos prekių sąrašas su papildoma informacija ap
 | **title** | *string* | Pavadinimas |
 | **artnum** | *string* | Prekės kodas |
 | **modified_at** | *string* | Prekės informacijos paskutinio koregavimo data ir laikas |
-| **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers](/#manufacturers-GET) |
-| **type_id** | *string* | Prekės tipo identifikatorius. Galimų sąrašas: [/producttypes](/#producttypes-GET) |
+| **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers]({{ site.baseurl }}/#manufacturers-GET) |
+| **type_id** | *string* | Prekės tipo identifikatorius. Galimų sąrašas: [{{ site.baseurl }}/producttypes](/#producttypes-GET) |
 | **weight** | *double* | Svoris |
 | **description** | *string* | Aprašymas, pateikiamas HTML formatu |
 | **categories_id** | *array[string]* | Kategorijų id kurioms priskirta prekė |
