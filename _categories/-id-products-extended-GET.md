@@ -21,9 +21,9 @@ right_code: |
         <description>
           <![CDATA[<h1><strong>JURA kavos aparatai IMPRESSA C50 -
           "id": "097b73d7db6876b1a16c212467c683df",
-          "title": "Kava i\u0161 sumalt\u0173 kavos pupeli\u0173",
+          "title": "Kava iš sumaltų kavos pupelių",
           "value": "+"
-          Paprastas ir eleganti&scaron;kas</strong></h1>...]]>
+          Paprastas ir elegantiškas</strong></h1>...]]>
         </description>
         <attributes>
           <attribute>
@@ -78,11 +78,11 @@ right_code: |
           "manufacturer_id": "c9556a3062a2aaebe14dfe99eff4f862",
           "type_id": "18c814aadb1282f357b053763d421839",
           "weight": "0",
-          "description": "<h1><strong>JURA kavos aparatai IMPRESSA C50 - Paprastas ir eleganti&scaron;kas<\/strong><\/h1>...",
+          "description": "<h1><strong>JURA kavos aparatai IMPRESSA C50 - Paprastas ir elegantiškas<\/strong><\/h1>...",
           "attributes": [
             {
               "id": "85497d1ff1e21d916c819cc8ad2ca671",
-              "title": "Reguliuojamas kavos mal\u016bn\u0117lis",
+              "title": "Reguliuojamas kavos malūnėlis",
               "value": "+"
             },
             {}
@@ -90,18 +90,18 @@ right_code: |
           "pictures": {
             "main": {
               "nr": 1,
-              "image": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/1\/382_382_75\/impressac50black_1.png"},
+              "image": "http://b2b.pretendentas.lt/out/pictures/generated/product/1/382_382_75/impressac50black_1.png"},
               "small": {
-                "1": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/1\/76_76_75\/impressac50black_1.png",
-                "2": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/2\/76_76_75\/impressac50black_2.png"
+                "1": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/76_76_75/impressac50black_1.png",
+                "2": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/76_76_75/impressac50black_2.png"
               },
               "medium": {
-                "1": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/1\/382_382_75\/impressac50black_1.png",
-                "2": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/2\/382_382_75\/impressac50black_2.png"
+                "1": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/382_382_75/impressac50black_1.png",
+                "2": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/382_382_75/impressac50black_2.png"
               },
               "big": {
-                "1": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/1\/665_665_75\/impressac50black_1.png",
-                "2": "http:\/\/b2b.pretendentas.lt\/out\/pictures\/generated\/product\/2\/665_665_75\/impressac50black_2.png"
+                "1": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/665_665_75/impressac50black_1.png",
+                "2": "http://b2b.pretendentas.lt/out/pictures/generated/product/2/665_665_75/impressac50black_2.png"
               }
             },
           "categories_id": [
