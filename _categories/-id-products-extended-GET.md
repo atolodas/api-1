@@ -123,7 +123,7 @@ Grąžinamas nurodytos kategorijos prekių sąrašas su papildoma informacija ap
 | **artnum** | *string* | Prekės kodas |
 | **modified_at** | *string* | Prekės informacijos paskutinio koregavimo data ir laikas |
 | **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers]({{ site.baseurl }}/#manufacturers-GET) |
-| **type_id** | *string* | Prekės tipo identifikatorius. Galimų sąrašas: [{{ site.baseurl }}/producttypes](/#producttypes-GET) |
+| **type_id** | *string* | Prekės tipo identifikatorius. Galimų sąrašas: [/producttypes]({{ site.baseurl }}/#producttypes-GET) |
 | **weight** | *double* | Svoris |
 | **description** | *string* | Aprašymas, pateikiamas HTML formatu |
 | **categories_id** | *array[string]* | Kategorijų id kurioms priskirta prekė |
