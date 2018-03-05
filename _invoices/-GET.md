@@ -57,9 +57,9 @@ Grąžinama sąskaitų informacija. Sukūrus užsakymą sugeneruojamas rezervaci
 
 | **id** | *string* | Sąskaitos identifikatorius |
 | **order_id** | *string* | Užsakymo, kuriam sugeneruota sąskaita, identifikatorius |
-| **inv_series** | *string* | Išankstinės sąskaitos serija |
-| **inv_nr** | *number* | Išankstinės sąskaitos numeris |
-| **res_series** | *string* | Rezervacijos serija |
-| **res_nr** | *number* | Rezervacijos numeris |
+| **inv_series** | *string* | Sąskaitos faktūros serija |
+| **inv_nr** | *number* | Sąskaitos faktūros numeris |
+| **res_series** | *string* | Išankstinės sąskaitos faktūros serija |
+| **res_nr** | *number* | Išankstinės sąskaitos faktūros numeris |
 | **created_at** | *string* | Išrašymo laikas |
 | **status** | *string* | Būsena. Galimos reikšmės: <br>* PAID – apmokėta <br>* PARTIALLY_PAID - dalinai apmokėta <br>* UNPAID - neapmokėta. |
