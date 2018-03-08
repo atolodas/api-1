@@ -95,7 +95,7 @@ Grąžinamas vartotojo visų užsakymų sąrašas.
 | **bill_lastname** | *string* | Mokėtojo pavardė |
 | **bill_additional_info** | *string* | Papildoma mokėjimo informacija, pastabos |
 | **total_netto** | *integer* | Prekių suma (*be PVM*) |
-| **total_bruto | *integer* | Prekių suma (*su PVM*) |
+| **total_bruto** | *integer* | Prekių suma (*su PVM*) |
 | **total_order_sum** | *integer* | Užsakymo bendra suma |
 | **vat_type** | *integer* | PVM tipas |
 | **vat_amount** | *integer* | PVM suma |
