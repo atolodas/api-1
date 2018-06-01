@@ -72,7 +72,7 @@ Grąžinamas nurodytos kategorijos bazinis prekių sąrašas. Jo informacija kin
 | **id** | *string* | Prekės identifikatorius |
 | **title** | *string* | Pavadinimas |
 | **artnum** | *string* | Prekės kodas |
-| **artnum** | *string* | Barkodas |
+| **ean** | *string* | Barkodas |
 | **modified_at** | *string* | Prekės informacijos paskutinio koregavimo data ir laikas |
 | **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers]({{ site.baseurl }}/#manufacturers-GET) |
 | **stock** | *Stock* | Kiekis |
