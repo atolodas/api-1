@@ -14,6 +14,7 @@ right_code: |
         <id>278ab94ea088648674ef871ae2838784</id>
         <title>Kavos aparatas Jura IMPRESSA C50</title>
         <artnum>7610917136810</artnum>
+        <ean>7610917136810</ean>
         <modified_at>2013-08-06 11:49:46</modified_at>
         <manufacturer_id>c9556a3062a2aaebe14dfe99eff4f862</manufacturer_id>
         <type_id>18c814aadb1282f357b053763d421839</type_id>
@@ -74,6 +75,7 @@ right_code: |
           "id": "278ab94ea088648674ef871ae2838784",
           "title": "Kavos aparatas Jura IMPRESSA C50",
           "artnum": "7610917136810",
+          "ean": "7610917136810",
           "modified_at": "2013-08-06 11:49:46",
           "manufacturer_id": "c9556a3062a2aaebe14dfe99eff4f862",
           "type_id": "18c814aadb1282f357b053763d421839",
@@ -121,6 +123,7 @@ Grąžinamas nurodytos kategorijos prekių sąrašas su papildoma informacija ap
 | **id** | *string* | Prekės identifikatorius |
 | **title** | *string* | Pavadinimas |
 | **artnum** | *string* | Prekės kodas |
+| **ean** | *string* | Barkodas |
 | **modified_at** | *string* | Prekės informacijos paskutinio koregavimo data ir laikas |
 | **manufacturer_id** | *string* | Gamintojo identifikatorius. Galimų sąrašas: [/manufacturers]({{ site.baseurl }}/#manufacturers-GET) |
 | **type_id** | *string* | Prekės tipo identifikatorius. Galimų sąrašas: [/producttypes]({{ site.baseurl }}/#producttypes-GET) |
